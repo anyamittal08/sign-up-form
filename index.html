@@ -4,9 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
     <title>Sign-up Form</title>
 </head>
 <body>
-    
+    <main>
+        <section class="left-panel">
+            <div class="logo-bg">
+                <img src="odin-lined.png" alt="odin-logo"> 
+                <h1 class="odin">ODIN</h1>
+            </div>
+            <footer class="bg-credit">Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com/">Unsplash</a></footer>
+        </section>
+        <section class="right-panel">
+            <div class="cta">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p> <br />
+                <p>You <em>know</em> you want to.</p>
+            </div>
+            <section class="form-container">
+                <h3> Let's do this!</h3>
+                <form action="#" method="post">
+                    <label for="first_name">First Name:</label>
+                    <input type="text" id="first_name">
+                    <label for="last_name">Last Name:</label>
+                    <input type="text" id="last_name">
+                    <label for="user-email">Email:</label>
+                    <input type="email" id="user-email">
+                    <label for="phone-number">Phone Number:</label>
+                    <input type="text" inputmode="numeric" id="phone-number" placeholder="123-456-7890" pattern="[0-9]*3-[0-9]*3-[0-9]*3" title="Please enter a valid phone number. Example: 000-000-0000">
+                </form>
+                <form></form>
+            </section>
+            <div class="btn-container">
+                <button>Create Account</button>
+                <p>Already have an account? <a href="#" class="log-in-link">Log In</a></p>
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script>
 </body>
 </html>
